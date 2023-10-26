@@ -66,7 +66,7 @@ const handleCart = ()=>{
               <h4 className='mt-3'>Total Product : <span>{cartArray.length}</span></h4>
               <h4 >Total:<span className='text-danger fw-bolder fs-2'>${total}</span></h4>
               <div className='d-grid'>
-                <button onClick={handleCart()} className='btn btn-success mt-5 rounded'>Check Out</button>
+                <button onClick={()=>handleCart()} className='btn btn-success mt-5 rounded'>Check Out</button>
 
               </div>
             </div>
